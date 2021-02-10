@@ -174,7 +174,7 @@
 .reply:focus-within .reply__column:first-child,
 .reply:focus-within .fa-grin-tongue-wink,
 .reply:focus-within button {
-  opacity: 0;
+  opacity: 0.5;
 }
 .reply input:focus {
   width: 90vw;
