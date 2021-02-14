@@ -24,6 +24,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   height: 1000vh;
   color: #2e363e;
+  background-color: var(--mint);
 }
 
 .main-screen {

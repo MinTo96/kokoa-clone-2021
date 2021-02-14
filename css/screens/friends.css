@@ -12,6 +12,9 @@
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
 }
+#friends-display-link {
+  background-color: var(--mint);
+}
 
 .friends-screen {
   padding: 0px var(--horizontal-space);
@@ -40,7 +43,7 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-color: var(--mint);
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -51,4 +54,7 @@
   font-size: 122px;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 1s;
+}
+#splash-screen i {
+  color: var(--dark-choco);
 }

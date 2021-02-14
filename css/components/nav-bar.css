@@ -6,6 +6,7 @@
   padding: 10px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgb(147, 200, 180);
 }
 
 .nav__list {
@@ -15,12 +16,6 @@
 .nav__link {
   position: relative;
   color: #2f363e;
-}
-.nav__notification {
-  position: absolute;
-  right: -10px;
-  bottom: 15px;
-  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 @keyframes notificationAnimation {
@@ -33,6 +28,13 @@
   100% {
     transform: none;
   }
+}
+
+.nav__notification {
+  position: absolute;
+  right: -10px;
+  bottom: 15px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__notifications {

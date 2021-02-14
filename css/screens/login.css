@@ -23,6 +23,7 @@
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 25px;
+  background-color: var(--mint);
 }
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -36,7 +37,7 @@
   border-color: var(--yellow);
 }
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: rgb(180, 145, 115);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;

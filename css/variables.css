@@ -3,4 +3,7 @@
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
   --gray-color: rgba(0, 0, 0, 0.4);
+  --mint: rgb(181, 227, 216);
+  --choco: rgb(180, 145, 115);
+  --dark-choco: rgb(119, 109, 097);
 }

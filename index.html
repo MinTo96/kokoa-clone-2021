@@ -16,21 +16,26 @@
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
-        <span>110%</span>
+        <span>100%</span>
         <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
     <header class="Welcome-header">
-      <h1 class="Welcome-header__title">Welcome to Kakao Clone</h1>
+      <h1 class="Welcome-header__title">Welcome to Mint Kakao</h1>
       <p class="Welcome-header__text">
         If you have a Kakao Account, log in with your email or phone number.
       </p>
     </header>
 
     <form action="friends.html" method="GET" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
+      <input
+        name="username"
+        type="text"
+        required
+        placeholder="Email or phone number"
+      />
+      <input name="password" type="password" required placeholder="Password" />
       <input type="submit" value="Log In" />
       <a href="#">Find Kakao Account or Password</a>
     </form>
